@@ -197,7 +197,7 @@ def config_ntp(module):
 
     # Parameters
     data['broadcast'] = params['broadcast']
-    #data['unicast'] = params['unicast']
+    data['unicast'] = params['unicast']
 
     data['max-association'] = {'cmd_no_form': params['cmd_no_form'],
                 'max-association_value': params['association_value']}
